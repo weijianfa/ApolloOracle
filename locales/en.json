@@ -1,0 +1,172 @@
+{
+  "welcome": {
+    "title": "🔮 Welcome to Apollo Oracle Bot!",
+    "greeting": "Hello, {name}!",
+    "select_service": "Please select a service:",
+    "disclaimer": "⚠️ Disclaimer:\nThis AI-generated content is for entertainment purposes only. Fortune-telling results are for reference only, please treat them rationally.",
+    "geo_restricted": "❌ Sorry, this service is only available for overseas users (non-mainland China).\n\n抱歉，本服务仅面向海外用户（非中国大陆）。"
+  },
+  "help": {
+    "title": "📖 Help Information",
+    "commands": "Available Commands:",
+    "start": "/start - Start using",
+    "help": "/help - Show help",
+    "cancel": "/cancel - Cancel current operation",
+    "instructions": "Instructions:",
+    "step1": "1. Select the service you want",
+    "step2": "2. Enter the required information as prompted",
+    "step3": "3. Complete payment",
+    "step4": "4. Wait for AI to generate the report",
+    "contact": "If you have any questions, please contact customer service."
+  },
+  "common": {
+    "cancel": "✅ Operation cancelled.",
+    "error": "❌ An error occurred, please try again later",
+    "not_found": "❌ Not found",
+    "confirm": "✅ Confirm",
+    "cancel_btn": "❌ Cancel",
+    "back": "⬅️ Back",
+    "help_btn": "❓ Help"
+  },
+  "product": {
+    "not_found": "❌ Product not found",
+    "price": "💰 Price: ${price}",
+    "input_required": "Please enter the required information as prompted:",
+    "confirm_order": "✅ Confirm Order",
+    "cancel_order": "❌ Cancel Order",
+    "order_info": "📋 Order Information:",
+    "product_name": "Product: {name}",
+    "total": "Total: ${amount}"
+  },
+  "input": {
+    "name": "Please enter your name (Chinese or English):",
+    "gender": "Please select your gender:",
+    "gender_select": "Please select gender:",
+    "birthday": "Please enter your date of birth (format: YYYY-MM-DD, e.g., 1990-01-01):",
+    "birth_time": "Please enter your time of birth (format: HH:MM, e.g., 12:00):",
+    "zodiac": "Please select your zodiac sign:",
+    "zodiac_a": "Please select the first Chinese zodiac:",
+    "zodiac_b": "Please select the second Chinese zodiac:",
+    "zodiac_person_a": "first person",
+    "zodiac_person_b": "second person",
+    "invalid": "Invalid input, please try again:",
+    "invalid_retry": "❌ {error}\n\nPlease try again:",
+    "selected_zodiac": "✅ Zodiac selected: {name}",
+    "selected_zodiac_a": "✅ First zodiac selected: {name}",
+    "selected_zodiac_b": "✅ Second zodiac selected: {name}",
+    "saved": "✅ Saved"
+  },
+  "order": {
+    "created": "✅ Order created successfully",
+    "failed": "❌ Failed to create order, please try again later",
+    "info_lost": "❌ Order information lost, please start over",
+    "user_error": "❌ User information error",
+    "query_failed": "❌ Failed to query order, please try again later",
+    "processing": "⏳ Processing your order, please wait...",
+    "processing_free": "⏳ Generating your report, please wait...",
+    "expired": "⚠️ Operation expired, please start over",
+    "expired_restart": "Please use /start to select a product again"
+  },
+  "payment": {
+    "info": "💳 Payment Information:",
+    "amount": "Amount: ${amount}",
+    "method": "Payment Method: PingPong",
+    "link": "Please click the button below to complete payment:",
+    "timeout": "⏰ Payment link will expire in 30 minutes",
+    "success": "Payment Successful",
+    "generating": "Generating Report",
+    "order_id": "Order ID",
+    "product": "Product",
+    "amount_label": "Amount",
+    "wait": "Please wait, your report will be sent to you shortly.",
+    "mock_success": "✅ Mock Payment Success",
+    "mock_failed": "⚠️ Mock Payment Failed",
+    "free_processing": "⏳ Generating your report, please wait...",
+    "free_processing_msg": "✨ {product_zh} / {product_en}\n\n🔄 Generating your report...\n🔄 Generating your report...\n\nOrder ID: {order_id}\nPlease wait, your report will be sent to you shortly.\nPlease wait, your report will be sent to you shortly."
+  },
+  "report": {
+    "generating": "⏳ Generating report, please wait...",
+    "ready": "✨ Your {product} report is ready!",
+    "order_id": "📋 Order ID: {order_id}",
+    "sending": "Sending report...",
+    "completion": {
+      "tarot": "\n✨ May today's tarot guidance bring you clarity and strength\n\n💫 Come back tomorrow for new guidance",
+      "horoscope": "\n✨ May this weekly forecast help you navigate the coming week\n\n💫 Wishing you a smooth week and success in all your endeavors",
+      "name": "\n✨ May this name interpretation bring you inspiration and guidance\n\n💫 Your name is part of your life, but you write your own destiny",
+      "compatibility": "\n✨ May this compatibility analysis help you better manage your relationships\n\n💫 Understanding and communication are keys to harmonious relationships",
+      "bazi": "\n✨ May this Birth Bazi Chart help you understand your destiny code\n\n💫 Know your destiny and change your fortune, grasp your life direction",
+      "annual": "\n✨ May this annual forecast help you plan the coming year\n\n💫 Plan ahead, seize opportunities, create a better future",
+      "default": "\n✨ Thank you for using our service\n\n💫 Wishing you all the best"
+    }
+  },
+  "error": {
+    "general": "❌ An error occurred: {error}",
+    "retry": "Please try again later or contact customer service",
+    "api_failed": "API call failed, please try again later",
+    "timeout": "Request timeout, please try again later"
+  },
+  "affiliate": {
+    "apply": {
+      "title": "📢 Affiliate Application",
+      "description": "Become our affiliate and earn generous commissions through sharing!\n\nCommission Tiers:\n• $0-$1000: 20%\n• $1001-$3000: 25%\n• $3001-$5000: 30%\n• $5000+: 35%\n• $8000+ total: Extra $500 bonus",
+      "agreement": "Affiliate Agreement:\n1. Affiliates must comply with platform rules\n2. False advertising is prohibited\n3. Commissions are settled monthly\n4. Violations will result in affiliate status revocation",
+      "confirm": "I have read and agree to the affiliate agreement",
+      "cancel": "Cancel Application",
+      "input_name": "Please enter your real name:",
+      "input_contact": "Please enter your contact information (Telegram username or email):",
+      "input_account": "Please enter your payout account information (PayPal, bank account, etc.):",
+      "success": "✅ Congratulations! You are now an affiliate\n\nAffiliate Code: {code}\nReferral Link: {link}\n\nPlease keep your affiliate code and link safe.",
+      "already": "You are already an affiliate!\nAffiliate Code: {code}",
+      "failed": "❌ Application failed, please try again later"
+    },
+    "stats": {
+      "title": "📊 Affiliate Statistics",
+      "code": "Affiliate Code: {code}",
+      "sales": "Total Sales: ${sales}",
+      "commission": "Total Commission: ${commission}",
+      "tier": "Current Tier: Tier {tier} ({rate}%)",
+      "next_tier": "Amount needed for next tier: ${amount}",
+      "bonus": "🎉 You have received an extra $500 bonus!",
+      "link": "Referral Link: {link}",
+      "not_affiliate": "You are not an affiliate yet. Use /apply_affiliate to apply"
+    }
+  },
+  "admin": {
+    "unauthorized": "❌ This command is for administrators only",
+    "health": {
+      "title": "📊 System Health Report",
+      "unable": "❌ Unable to get system health"
+    },
+    "stats": {
+      "title": "📊 Order Statistics",
+      "total_orders": "Total Orders",
+      "pending": "Pending",
+      "paid": "Paid",
+      "generating": "Generating",
+      "completed": "Completed",
+      "failed": "Failed",
+      "total_sales": "Total Sales",
+      "today_orders": "Today Orders",
+      "today_sales": "Today Sales",
+      "total_users": "Total Users",
+      "total_affiliates": "Total Affiliates"
+    },
+    "orders": {
+      "title": "📋 Recent {count} Orders",
+      "no_orders": "📋 No orders found",
+      "product": "Product",
+      "amount": "Amount",
+      "status": "Status",
+      "time": "Time"
+    },
+    "affiliates": {
+      "title": "📢 Top {count} Affiliates",
+      "no_affiliates": "📢 No affiliates found",
+      "user": "User",
+      "sales": "Sales",
+      "commission": "Commission",
+      "tier": "Tier"
+    }
+  }
+}
+

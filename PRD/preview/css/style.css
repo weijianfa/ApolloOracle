@@ -1,0 +1,459 @@
+/* 全局样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 420px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* 头部样式 */
+.header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.header p {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* 内容区域 */
+.content {
+    padding: 20px;
+}
+
+/* 产品卡片 */
+.product-card {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.product-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: #667eea;
+}
+
+.product-card.active {
+    border-color: #667eea;
+    background: #f0f4ff;
+}
+
+.product-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.product-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.product-price {
+    font-size: 20px;
+    font-weight: 700;
+    color: #667eea;
+}
+
+.product-desc {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* 表单样式 */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.form-select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.form-select:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+/* 按钮样式 */
+.btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.btn-secondary {
+    background: #f0f0f0;
+    color: #333;
+}
+
+.btn-secondary:hover {
+    background: #e0e0e0;
+}
+
+.btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* 支付页面 */
+.payment-info {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.payment-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.payment-item:last-child {
+    border-bottom: none;
+}
+
+.payment-label {
+    font-size: 14px;
+    color: #666;
+}
+
+.payment-value {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.payment-total {
+    font-size: 20px;
+    font-weight: 700;
+    color: #667eea;
+}
+
+/* 报告页面 */
+.report-container {
+    padding: 20px;
+}
+
+.report-header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.report-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.report-meta {
+    font-size: 14px;
+    color: #666;
+}
+
+.report-content {
+    line-height: 1.8;
+    color: #333;
+    font-size: 15px;
+}
+
+.report-section {
+    margin-bottom: 25px;
+}
+
+.report-section-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #667eea;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.report-text {
+    color: #555;
+    line-height: 1.8;
+}
+
+/* 加载动画 */
+.loading {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #667eea;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 20px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.loading-text {
+    color: #666;
+    font-size: 14px;
+}
+
+/* 星座选择器 */
+.zodiac-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.zodiac-item {
+    padding: 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    background: #fff;
+}
+
+.zodiac-item:hover {
+    border-color: #667eea;
+    transform: translateY(-2px);
+}
+
+.zodiac-item.active {
+    border-color: #667eea;
+    background: #f0f4ff;
+}
+
+.zodiac-icon {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.zodiac-name {
+    font-size: 12px;
+    color: #333;
+}
+
+/* 生肖选择器 */
+.zodiac-compat-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* 返回按钮 */
+.back-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px;
+    color: #667eea;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.back-btn:hover {
+    text-decoration: underline;
+}
+
+/* 步骤指示器 */
+.steps {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+.step {
+    flex: 1;
+    text-align: center;
+    position: relative;
+}
+
+.step::after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    width: 100%;
+    height: 2px;
+    background: #e0e0e0;
+    z-index: 0;
+}
+
+.step:last-child::after {
+    display: none;
+}
+
+.step-number {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #e0e0e0;
+    color: #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 8px;
+    position: relative;
+    z-index: 1;
+    font-weight: 600;
+}
+
+.step.active .step-number {
+    background: #667eea;
+    color: #fff;
+}
+
+.step.completed .step-number {
+    background: #4caf50;
+    color: #fff;
+}
+
+.step-label {
+    font-size: 12px;
+    color: #666;
+}
+
+.step.active .step-label {
+    color: #667eea;
+    font-weight: 600;
+}
+
+/* 响应式设计 */
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+    
+    .container {
+        border-radius: 15px;
+    }
+    
+    .header {
+        padding: 20px 15px;
+    }
+    
+    .content {
+        padding: 15px;
+    }
+}
+
+/* 提示信息 */
+.alert {
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.alert-info {
+    background: #e3f2fd;
+    color: #1976d2;
+    border-left: 4px solid #1976d2;
+}
+
+.alert-warning {
+    background: #fff3e0;
+    color: #f57c00;
+    border-left: 4px solid #f57c00;
+}
+
+/* 免责声明 */
+.disclaimer {
+    background: #fff3e0;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #666;
+    line-height: 1.6;
+}
+

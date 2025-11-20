@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 数据库
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# 日志
+*.log
+logs/
+*.log.*
+
+# 测试
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# SSL证书（不要提交到仓库）
+*.pem
+*.key
+*.crt
+*.cert
+
+# 数据文件
+data/
+backups/
+
+# 产品文档（可选：如果需要公开文档，可以移除这两行）
+# DEV/
+# PRD/
+
+# 其他
+*.egg-info/
+dist/
+build/
+scripts/check_bot_conflict.py
+*.ps1
+read_docx.py

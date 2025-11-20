@@ -1,0 +1,46 @@
+# Telegram Bot框架
+python-telegram-bot>=22.5  # 升级到22.5以支持Python 3.14
+
+# 环境变量管理
+python-dotenv==1.0.0
+
+# HTTP客户端（异步）
+aiohttp==3.9.1
+requests==2.31.0
+
+# 数据库ORM
+sqlalchemy>=2.0.25  # 更新版本以支持Python 3.14
+alembic==1.12.1
+# PostgreSQL驱动（生产环境，可选）
+# 注意：开发环境使用SQLite，不需要安装psycopg2-binary
+# 如果需要在Windows上安装，请使用更新的版本或安装PostgreSQL客户端
+# psycopg2-binary>=2.9.9  # 取消注释以安装PostgreSQL支持
+
+# 缓存
+redis==5.0.1
+
+# 国际化
+Babel==2.13.1  # 注意：包名是 Babel，不是 python-babel
+
+# GeoIP
+maxminddb==2.2.0
+
+# 模板引擎
+Jinja2==3.1.2
+
+# 异步任务队列（可选）
+celery==5.3.4
+
+# Web服务器（Webhook）
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# 测试框架
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-asyncio==0.21.1
+
+# 工具库
+python-dateutil==2.8.2
+cryptography==41.0.7  # 用于数据加密
+
