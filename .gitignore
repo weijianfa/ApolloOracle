@@ -61,9 +61,9 @@ desktop.ini
 data/
 backups/
 
-# 产品文档（可选：如果需要公开文档，可以移除这两行）
-# DEV/
-# PRD/
+# 产品文档（不提交到仓库）
+DEV/
+PRD/
 
 # 其他
 *.egg-info/
